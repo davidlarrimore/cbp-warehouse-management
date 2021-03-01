@@ -1,0 +1,34 @@
+{
+  "orgName": "CBP Warehouse Management",
+  "edition":"Enterprise",
+  "features": [
+    "Communities",
+    "Sites",
+    "ServiceCloud",
+    "CMSUnlimitedUse",
+    "API",
+    "DebugApex",
+    "DefaultWorkflowUser",
+    "Entitlements",
+    "Knowledge",
+    "Interaction",
+    "EinsteinArticleRecommendations"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },    
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    }
+  }
+}
