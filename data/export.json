@@ -1,0 +1,16 @@
+{
+    "objects": [
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "Select Name, Description, ExternalId, ProductCode, Family, StockKeepingUnit, QuantityUnitOfMeasure, DisplayUrl, Audience__c, Product_Image_Static_Resource_Name__c, Available__c FROM Product2 WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Name, Description, DeveloperName, WorkspaceType FROM ContentWorkspace WHERE Name = 'Product Photos'"
+        }        
+    ],
+    "promptOnMissingParentObjects": true,
+    "promptOnIssuesInCSVFiles": false
+}

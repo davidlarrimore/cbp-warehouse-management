@@ -12,6 +12,7 @@
     "Entitlements",
     "Knowledge",
     "Interaction",
+    "SalesforceContentUser",
     "EinsteinArticleRecommendations"
   ],
   "settings": {

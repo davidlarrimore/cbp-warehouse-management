@@ -1,0 +1,27 @@
+Id,Name,Description,ExternalId,ProductCode,Family,StockKeepingUnit,QuantityUnitOfMeasure,DisplayUrl,Product_Image_Static_Resource_Name__c,Available__c
+01t2D000004KLCXQA4,photo-secretary,photo-secretary,,,Photo,,Each,,photo_secretary,1000
+01t2D000004KKrOQAW,poster-cbp-career-1,poster-cbp-career-1,,,Poster,,Each,,poster_cbp_career_1,1000
+01t2D000004KKiHQAW,poster-forced-labor-1,poster-forced-labor-1,,,Poster,,Each,,poster_forced_labor_1,1000
+01t2D000004KL1KQAW,poster-human-trafficking-1,poster-human-trafficking-1,,,Poster,,Each,,poster_human_trafficking_1,1000
+01t2D000004KLI7QAO,poster-human-trafficking-2,poster-human-trafficking-2,,,Poster,,,,poster_human_trafficking_2,1000
+01t2D000004KLICQA4,poster-human-trafficking-3,poster-human-trafficking-3,,,Poster,,Each,,poster_human_trafficking_3,1000
+01t2D000004KLDEQA4,poster-social-distancing-1,poster-social-distancing-1,,,Poster,,Each,,poster_social_distancing_1,1000
+01t2D000004KKiIQAW,poster-social-distancing-2,poster-social-distancing-2,,,Poster,,Each,,poster_social_distancing_2,1000
+01t2D000004KLCtQAO,poster-us-map-1,poster-us-map-1,,,Poster,,Each,,poster_us_map_1,1000
+01t2D000004KLDfQAO,poster-cbp-detention-1,poster-cbp-detention-1,,,Poster,,Each,,poster_cbp_detention_1,1000
+01t2D000004KKqeQAG,poster-us-map-2,poster-us-map-2,,,Poster,,Each,,poster_us_map_2,1000
+01t2D000004KKqfQAG,ppe-anti-fog-glasses,ppe-anti-fog-glasses,,,PPE,,Each,,ppe_anti_fog_glasses,1000
+01t2D000004KLIDQA4,ppe-face-shield,ppe-face-shield,,,PPE,,Each,,ppe_face_shield,1000
+01t2D000004KLI8QAO,ppe-full-chemical-protection,ppe-full-chemical-protection,,,PPE,,Each,,ppe_full_chemical_protection,1000
+01t2D000004KD8TQAW,Presidential Photo 5x7,Presidential Photo 5x7,10001,10001,Photo,,,,joe_biden_photo,2000
+01t2D000004KLIbQAO,ppe-full-mask-respirator,ppe-full-mask-respirator,,,PPE,,Each,,ppe_full_mask_respirator,1000
+01t2D000004KLDFQA4,ppe-half-mask-respirator,ppe-half-mask-respirator,,,PPE,,Each,,ppe_half_mask_respirator,1000
+01t2D000004KLIlQAO,ppe-kn95-mask,ppe-kn95-mask,,,PPE,,Each,,ppe_kn95_mask,1000
+01t2D000004KLIqQAO,ppe-latex-gloves,ppe-latex-gloves,,,PPE,,Each,,ppe_latex_gloves,1000
+01t2D000004KLJ0QAO,ppe-saftey-glasses,ppe-saftey-glasses,,,PPE,,Each,,ppe_saftey_glasses,1000
+01t2D000004KLJ1QAO,ppe-surgical-mask,ppe-surgical-mask,,,PPE,,Each,,ppe_surgical_mask,1000
+01t2D000004KLCDQA4,photo-commissioner,photo-commissioner,,,Photo,,,,photo_commissioner,1000
+01t2D000004KLCEQA4,poster-forced-labor-2,poster-forced-labor-2,,,Poster,,Each,,poster_forced_labor_2,1000
+01t2D000004KLIWQA4,poster-us-map-3,poster-us-map-3,,,Poster,,Each,,poster_us_map_3,1000
+01t2D000004KLIvQAO,ppe-nitrile-gloves,ppe-nitrile-gloves,,,PPE,,Each,,ppe_nitrile_gloves,1000
+01t2D000004KLIgQAO,ppe-heavy-nitrile-gloves,ppe-heavy-nitrile-gloves,,,PPE,,Each,,ppe_heavy_nitrile_gloves,1000
