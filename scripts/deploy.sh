@@ -2,10 +2,7 @@ echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
 
 echo "*** Deploying metadata to target org ..."
-sfdx force:source:deploy --targetusername CBPWHMScratch --sourcepath force-app
-
-echo "*** Deleting Data ..."
-sfdx force:apex:execute -f scripts/apex/deleteData.apex -u CBPWHMScratch
+sfdx force:source:deploy --targetusername CBPWHM --sourcepath force-app
 
 echo "*** Re-Importing Data ..."
 sfdx sfdmu:run --sourceusername csvfile --targetusername CBPWHMScratch -p data

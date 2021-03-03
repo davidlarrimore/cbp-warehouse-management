@@ -30,6 +30,9 @@
     },
     "communitiesSettings": {
       "enableNetworksEnabled": true
+    },
+    "contentSettings": {
+      "enableContent": true
     }
   }
 }

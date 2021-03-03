@@ -1,5 +1,5 @@
 {
-  "activeBrandingSetId" : "8b93e920-cc3d-43d0-a995-51d4a07cc4ab",
+  "activeBrandingSetId" : "a4f879d2-a626-4ab1-98e8-ab459b002866",
   "customCSS" : "",
   "developerName" : "service",
   "id" : "7f5e0cc8-34c8-4e15-a98e-44c35ce91595",
@@ -47,19 +47,7 @@
         "componentAttributes" : {
           "contineActionLabel" : "Ask the community",
           "continueLabel" : "Don’t see it?",
-          "crossObjectTypeaheadApiNames" : [ {
-            "isPublic" : true,
-            "name" : "KnowledgeArticleVersion"
-          }, {
-            "isPublic" : true,
-            "name" : "FeedItem"
-          }, {
-            "isPublic" : false,
-            "name" : "Case"
-          }, {
-            "isPublic" : true,
-            "name" : "CollaborationGroup"
-          } ],
+          "crossObjectTypeaheadApiNames" : "",
           "disableCrossObjectRelevance" : false,
           "enableAutocomplete" : true,
           "maxNumberOfResults" : 6,
@@ -71,7 +59,7 @@
           "signInActionLabel" : "Sign in to ask the community"
         },
         "componentName" : "forceCommunity:searchBox",
-        "id" : "104852ed-7fd2-4b2d-9a23-51e525435129",
+        "id" : "96bfe76d-4918-4b79-ba53-2a778739238d",
         "renditionMap" : { },
         "type" : "component"
       } ],
@@ -125,6 +113,15 @@
       "regionName" : "customRegion",
       "type" : "region"
     }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.footer.1}\" /></p>"
+        },
+        "componentName" : "forceCommunity:richTextInline",
+        "id" : "c5b8b351-9192-4d31-b353-e8d68a53a710",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
       "id" : "29172ad6-e51a-4855-8173-45c970c96b55",
       "regionName" : "footer",
       "type" : "region"

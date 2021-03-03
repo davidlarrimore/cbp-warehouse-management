@@ -6,12 +6,12 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerText" : "Your one stop shop for asset distribution!",
         "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "",
         "showSubTopics" : true,
-        "title" : "Welcome!",
+        "title" : "Welcome to the National Distribution Center",
         "uniqueNameOrId" : ""
       },
       "componentName" : "forceCommunity:headline",
@@ -60,25 +60,10 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "defaultSortOrderCompactFeed" : "Relevance",
-        "defaultSortOrderFullFeed" : "Relevance",
-        "discussionTabLabel" : "Discussions",
-        "featuredTabLabel" : "Featured",
-        "maxWidth" : 100,
-        "myFeedTabLabel" : "My Feed",
-        "overlayColor" : "rgba(0,0,0,0.4)",
-        "overlayHoverColor" : "",
-        "radius" : 0,
-        "showCompactFeedInDiscussion" : true,
-        "textAlignment" : "center",
-        "textBgColor" : "rgba(0,0,0,0)",
-        "textBgHoverColor" : "rgba(0,0,0,0)",
-        "textColor" : "",
-        "textHoverColor" : "",
-        "textPosition" : "center center"
+        "config" : "{}"
       },
-      "componentName" : "forceCommunity:homeTabs",
-      "id" : "bbf078fa-e4c5-435f-8ebb-2845b8eb2bb0",
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "51c4d73f-7c97-43a0-97aa-cdaf45f58ed3",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -87,56 +72,6 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "channel" : "DefaultChannel",
-        "title" : ""
-      },
-      "componentName" : "forceCommunity:recommendations",
-      "id" : "6d234629-cdaa-4434-ac23-77deb2db623a",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "display" : "LEVELS_POINTS",
-        "excludeInternalUsers" : false,
-        "knowledgeLabel" : "Knows about",
-        "numberOfUsers" : 5,
-        "showContextUser" : false,
-        "showTooltip" : false,
-        "showUserRank" : false,
-        "title" : "Leaderboard",
-        "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
-      },
-      "componentName" : "forceCommunity:reputationLeaderboard42",
-      "id" : "1814ebf3-b365-4687-82b1-7b2d3f5b980a",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "numberOfArticles" : 5,
-        "title" : "Trending Articles",
-        "topicId" : "{!topicId}"
-      },
-      "componentName" : "selfService:topicTrendingArticles42",
-      "id" : "b723d937-68a5-47b2-8cf0-cc8c58cc2a66",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "numberOfTopics" : 5,
-        "showTopicsMetric" : true,
-        "title" : "Trending Topics"
-      },
-      "componentName" : "forceCommunity:trendingTopics",
-      "id" : "a4fa7750-53d8-4e1c-9f85-1fb66121d888",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "5ace669b-a9b7-4b53-8daf-8ed76487cddd",
     "regionName" : "sidebar",
     "type" : "region"

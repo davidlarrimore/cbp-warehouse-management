@@ -8,8 +8,13 @@
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query": "SELECT Name, Description, DeveloperName, WorkspaceType FROM ContentWorkspace WHERE Name = 'Product Photos'"
-        }        
+            "query": "Select Name, Phone, Type, Website, Site,Industry, Ownership, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId from Account WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Email",
+            "query": "SELECT FirstName, LastName, Email, Phone, MobilePhone, Title, Salutation, MailingStreet, MailingCity, MailingPostalCode, MailingState, MailingCountry, Fax, AccountId, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId FROM Contact where Handcrafted_for_WHM_Demo_Scenario__c = true"
+        } 
     ],
     "promptOnMissingParentObjects": true,
     "promptOnIssuesInCSVFiles": false
