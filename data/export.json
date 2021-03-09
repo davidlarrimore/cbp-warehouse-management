@@ -2,18 +2,18 @@
     "objects": [
         {
             "operation": "Upsert",
-            "externalId": "Name",
-            "query": "Select Name, Description, ExternalId, ProductCode, Family, StockKeepingUnit, QuantityUnitOfMeasure, DisplayUrl, Audience__c, Product_Image_Static_Resource_Name__c, Available__c FROM Product2 WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
+            "externalId": "ProductCode",
+            "query": "Select Name, Description, isActive, ExternalId, ProductCode, Family, StockKeepingUnit, QuantityUnitOfMeasure, DisplayUrl, Audience__c, Product_Image_Static_Resource_Name__c, Available__c, Handcrafted_for_WHM_Demo_Scenario__c, RecordTypeId FROM Product2 WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
         },
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query": "Select Name, Phone, Type, Website, Site,Industry, Ownership, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId from Account WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
+            "query": "Select Name, Phone, Type, Website, Site,Industry, Ownership, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, Handcrafted_for_eWRTS_Demo_Scenario__c, Handcrafted_for_WHM_Demo_Scenario__c from Account WHERE Handcrafted_for_WHM_Demo_Scenario__c = true"
         },
         {
             "operation": "Upsert",
             "externalId": "Email",
-            "query": "SELECT FirstName, LastName, Email, Phone, MobilePhone, Title, Salutation, MailingStreet, MailingCity, MailingPostalCode, MailingState, MailingCountry, Fax, AccountId, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId FROM Contact where Handcrafted_for_WHM_Demo_Scenario__c = true"
+            "query": "SELECT FirstName, LastName, Email, Phone, MobilePhone, Title, Salutation, MailingStreet, MailingCity, MailingPostalCode, MailingState, MailingCountry, Fax, AccountId, Handcrafted_for_WHM_Demo_Scenario__c FROM Contact where Handcrafted_for_WHM_Demo_Scenario__c = true"
         } 
     ],
     "promptOnMissingParentObjects": true,

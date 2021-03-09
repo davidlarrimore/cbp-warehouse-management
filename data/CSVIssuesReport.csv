@@ -1,3 +1,2 @@
 Date update,Child sObject,Child field,Child value,Parent sObject,Parent field,Parent value,Error
-2021-03-03  17:13:55.649,RecordType,,,,,,CSV FILE DOES NOT EXIST
-2021-03-03  17:13:55.652,Account,RecordTypeId,,,,,COLUMN DEFINED IN THE SCRIPT IS MISSING IN THE CSV FILE
+2021-03-03  20:08:57.276,Account,RecordTypeId,,,,,COLUMN DEFINED IN THE SCRIPT IS MISSING IN THE CSV FILE
